@@ -304,7 +304,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-image: url('../images/dark.png');
+  background-image: url('dark.png');
   background-repeat: repeat;	
 }
 
@@ -4509,7 +4509,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-image: url('../images/green-fibers.png');
+  background-image: url('green-fibers.png');
   background-repeat: repeat;	
   border-color: #080808;
 }
@@ -4962,7 +4962,7 @@ a.list-group-item.active > .badge,
   line-height: 2.1428571435;
   color: inherit;
   background-color: #eeeeee;
-  background-image: url('../images/brushed_alu.png');
+  background-image: url('brushed_alu.png');
   background-repeat: repeat;
 }
 
@@ -5004,7 +5004,7 @@ a.list-group-item.active > .badge,
   max-width: 100%;
   padding: 4px;
   line-height: 1.428571429;
-  background-image: url('../images/leather_1.png');
+  background-image: url('leather_1.png');
   background-repeat: repeat;
   border: 3px solid #d3d3d3;
   border-radius: 10px;
