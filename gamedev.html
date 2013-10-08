@@ -41,8 +41,26 @@
     </nav>
     
     <div class="container">
-
+		
 		<div class="story-title">GameDev Blog</div>
+		
+			<div class="story-body">
+			Tearing Apart Complexity<h6>October 7th, 2013</h6>
+			
+			<p>Computer programs are pretty complex beasts: they can exist in many different states, and one wrong piece of code can render your one's and zero's useless. It amazes me how huge programs, like the Windows Operating System or Halo, were made in a matter of years and came out to be successful products. How do you address the fact that computer programs are complex to write, fix, and maintain?
+
+			<p>For Donut Destruction today, I wanted to work on the main player's bullet. I decided to use pre-existing code from a previous project of mine and use it for this project. It made writing the bullet logic of the game very easy. However, for this game I wanted to add another dimension to the bullet: a trajectory. Just as how a cannon is shot in the air, I wanted the game to replicate that sort of displacement for the bullet so it makes for interesting game mechanics. 
+			
+			<p>Long story short, after unsuccessfully using pre-existing code, I tried working from the ground up. 
+			
+			<p>There's the X-Direction of the bullet, then the velocity of the bullet depending on the angle of the cannon, followed by the Y-Direction of the bullet, then the velocity of the bullet in the Y-Direction, followed by the effects of gravity on the bullet.
+			
+			<p>To be able to break apart the whole problem, which in this case was replicating the trajectory of a bullet, into its smallest components is a very effective way to solve big problems. In addition, it guarantees that your code will run by the end since you've been running and debugging small parts of the program.
+			
+			<p>Hopefully this will provide some insight for projects that may seem insurmountable unless you break them up into their simpler components.
+			
+			</div>
+			
 			
 			<div class="story-body">
 			Beginning the Game <h6>October 5th, 2013</h6>
