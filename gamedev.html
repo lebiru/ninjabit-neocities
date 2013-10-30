@@ -45,6 +45,106 @@
 		<div class="story-title">GameDev Blog</div>
 		
 			<div class="story-body">
+			Results and Lessons Learned<h6>October 29th, 2013</h6>
+           
+		   <p>Well, looks like I couldn't port the game to Android in time :/ The challenge was simply getting a "Hello World" test working on AGK, but documentation
+			was just too plain confusing! I checked out the AGK forums and YouTube videos but it was of no avail. One page had about 75 steps you had to follow to get 
+			it working. I followed them but there simply was too many factors and variables that didn't make it work. Maybe next time...
+			
+			<p>I'd like to share my personal Lessons Learned for this project. 
+			
+			<p>What went well?
+			
+			<ul>
+				<li>Breaking up tasks to small manageable pieces</li>
+				<li>Consistently committing to git as much as possible.</li>
+				<li>Getting a prototype of the game out as quickly as possible.</li>
+				<li>Stop building features when the end is in sight, or else your game will never end!</li>
+				<li>Finishing 10 days early allowed for enough time to fix bugs and polish the game.</li>
+				
+			</ul>
+			
+			<p>What didn't go well?
+			
+			<ul>
+				<li>Porting to Android. Not enough knowledge or documentation on the matter. I should have tried a "Hello World" before porting the game.</li>
+				<li>There was a frame rate issue I was not aware of until a comment was made on Game Jolt. Testing should be done thoroughly before pushing the release build.</li>
+				<li>Technically, the "bullet" class was not implemented in the best manner. I have to research the best ways to implement "bulletManager" classes and "bullets".
+			</ul>
+			
+			<p>Overall, pretty happy I finished this game. Currently we've got ~93 views and ~36 downloads on Game Jolt, a modest metric but great starting point.
+			
+			<p>And that's basically it! Stay tuned for news on my November game, there's some great surprises I cannot wait to share with you guys! ^^
+			
+			</div>
+		
+			<div class="story-body">
+			Release! and one more thing...<h6>October 20th, 2013</h6>
+           
+		   <img src="/titlescreen.png" height="400px" width="720px" align="right"/>
+		   
+			<p>Release! "Donut Destruction" is available for download and playing at my <a href="http://gamejolt.com/games/arcade/donut-destruction/18453/">Game Jolt</a> profile. PLAY. IT. NOW!
+			
+			<p>Please let me know what you think about the game, leave a comment at the game jolt page if you like it. Or not :P
+
+			<p>But with 10 days left, I can't just dawdle around. That's why I've given myself a BONUS MISSION. :O
+			
+			<p>Mission: Port "Donut Destruction" to Android before October 31st.
+			
+			<p>Yikes. Can I do this? Will YOU be able to shoot spinach and become Donut on your Android device? FIND OUT ON OCTOBER 31ST!
+			
+			</div>
+		
+			<div class="story-body">
+			The Micro Game SDLC <h6>October 18th, 2013</h6>
+           
+		   <img src="/sdlc.png" height="400px" width="720px" align="right"/>
+		   
+			<p>I once read a question on  <a href="http://www.reddit.com/r/gamedev/">gamedev</a> on how does one go about developing a small game? What are the phases or cycles that you have to go through in order for the game to "bake" properly?
+			
+			<p>The SDLC, software development life cycle, of any program is important since it will determine the steps in which your program will grow. Typically you do the critical things for the programs in the beginning
+			and leave the non-critical programming toward the end. As long as your foundation is solid, you can build upon it your features, enhancements, and what have you. 
+			
+			<p>Different programs and applications will have different SDLCs. For example, a SaaS - software as a service - application will have multiple releases throughout the year, each subdivided into their own
+			requirements gathering, development, quality assurance, user acceptance testing, and production line testing. This process continues indefinitely, maintaining the application.
+
+			<p>But for games, it is different. The top answer for the subreddit post went something like this: first you do a quick programming prototype of your game, making sure the logic works. Then you do place holder art for the game. 
+			The art/sprites are just there as place holders and to show the logic is working. Then you build upon the programming prototype, putting in the fun features of the game. As this goes on, you gradually incorporate the 
+			polished art assets into the game. As they eventually mesh together, the game will be closer to a finished product upon release.
+			
+			<p>I don't know if this development style has a name (AGILE?), but we can call it the micro game SDLC for now. The micro is optimal for games that be finished in a "quick" time, so great for game jams and Ludum Dares. I
+			would say it's not great for larger games since the merging of art/programming and other components could not be so smooth. 
+			
+			<p>So, there you have it. For small games, try doing a quick programming prototype of the crux/essence of the game. Next, insert place holder sprites. Then refine and polish your code, adding in enhancements (not too many),  and finally merge
+			it with the finished art assets of the game.
+			
+			<p>Hopefully this development methodology will help you in your small gaming projects. 
+			
+			
+			</div>
+		
+		
+			<div class="story-body">
+			Git and Dropbox<h6>October 13th, 2013</h6>
+           
+			<p>Due to legal constraints, I was forced to remove the project from Github. Boo!
+			
+			<p>The problem was that the AGK source code was made available to the world illegally. So, I deleted those projects. Didn't wanna get arrested for a simple mistake.
+			
+			<p>So, how could I still use version control for these projects? The problem is I needed a way to store my projects in a remote server that is -private-.
+			
+			<p>I thought about using Bitbucket after some forums recommended that. But Bitbucket -> Atlassian -> JIRA -> reminds me of work. So hell no!
+			
+			<p>Enter Git and Dropbox. For those of you unfamiliar with Dropbox, it's a minimalistic cloud storage solution. Simple stuff; think Google Drive.
+			
+			<p>I followed the <a href="http://blog.shvetsov.com/2013/04/using-git-with-dropbox.html">Using Git with Dropbox</a> blog. Now, I have a private git repository! Totally free! :)
+			
+			<p>Now that the game exists in Dropbox, I can continue with the important stuff: working on the game!
+			
+			
+			</div>
+		
+			<div class="story-body">
 			Tearing Apart Complexity<h6>October 7th, 2013</h6>
 		
             <img src="/DonutDestruction.png" height="400px" width="720px" align="right"/>
